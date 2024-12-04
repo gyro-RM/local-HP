@@ -7,6 +7,12 @@ body{
 	margin: 0;
 }
 
+img{
+	width: 100%;
+	height: auto;
+	vertical-align: bottom;
+}
+
 .pagetop {
     height: 50px;
     width: 50px;
@@ -21,6 +27,7 @@ body{
     z-index: 2;
 }
 
+
 .pagetop_arrow {
     height: 10px;
     width: 10px;
@@ -31,10 +38,20 @@ body{
 
 
 
+
+.img_top{
+	position: relative;
+	width: 100%;
+	z-index: 999;
+}
+
+
+
+
 .design_support{
 	width: 100%;
-	height: 1200px;
-	background: linear-gradient(135deg, #0089BF, #3DDB87);
+	height: auto;
+	background: linear-gradient(135deg, #3DDB87, #0089BF);
 	margin: 0;
 	display: flex;
 	flex-direction: column;
@@ -57,6 +74,7 @@ body{
 	flex-direction: column;
 	align-items: flex-start;
 	padding: 48px 24px;
+	font-size: 1.5rem;
 }
 
 
@@ -251,11 +269,13 @@ body{
   
 
 
+#box_img_field{
+	display: none;
+}
 
 
 
-
-#vision{
+#work{
 	width: 100%;
 	height: 600px;
 }
@@ -271,9 +291,150 @@ body{
 }
 
 
+@media screen and (max-width: 1024px) {
+
+	.title{
+		font-size: 1.2rem;
+	}
+
+
+	.blob h3{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		pointer-events: none;
+		font-size: 2vw;
+	  }
+
+	  .blob-1 {
+		height: 10rem;
+		width: 24%;
+		top: 0;
+		left: 0;
+	  }
+	
+	
+	  
+	  .blob-2 {
+		height: 8rem;
+		width: 16%;
+		top: 0;
+		left: 28%;
+	  }
+	  
+	  .blob-3 {
+		height: 12rem;
+		width: 28%;
+		top: 0;
+		left: 48%;
+	  }
+	  
+	  .blob-4 {
+		height: 10rem;
+		width: 20%;
+		top: 0;
+		left: 80%;
+	  }
+	  
+	  .blob-5 {
+		height: 10rem;
+		width: 28%;
+		top: 20%;
+		left: 16%;
+	  }
+	  
+	  .blob-6 {
+		height: 8rem;
+		width: 16%;
+		top: 22%;
+		left: 48%;
+	  }
+	  
+	  .blob-7 {
+		height: 12rem;
+		width: 28%;
+		top: 20%;
+		left: 72%;
+	  }
+	  
+	  .blob-8 {
+		height: 12rem;
+		width: 24%;
+		top: 40%;
+		left: 0%;
+	  }
+	  
+	  .blob-9 {
+		height: 10rem;
+		width: 28%;
+		top: 40%;
+		left: 32%;
+	  }
+	  
+	  .blob-10 {
+		height: 8rem;
+		width: 16%;
+		top: 40%;
+		left: 64%;
+	  }
+	  
+	  .blob-11 {
+		height: 8rem;
+		width: 20%;
+		top: 42%;
+		left: 88%;
+	  }
+	  
+	  .blob-12 {
+		height: 10rem;
+		width: 20%;
+		top: 64%;
+		left: 16%;
+	  }
+	  
+	  .blob-13 {
+		height: 8rem;
+		width: 24%;
+		top: 64%;
+		left: 40%;
+	  }
+	  
+	  .blob-14 {
+		height: 8rem;
+		width: 16%;
+		top: 60%;
+		left: 72%;
+	  }
+	  
+	  
+
+
+
+}
 
 
 
 
 
+@media screen and (max-width: 767px) {
 
+	.title{
+		font-size: 0.8rem;
+	}
+
+	.box{
+		height: auto;
+	}
+
+
+	#box_blob{
+		display: none;
+	}
+
+	#box_img_field{
+		display: block;
+		padding-bottom: 48px;
+	}
+
+}
