@@ -259,10 +259,6 @@ img{
   
 
 
-#box_img_field{
-	display: none;
-}
-
 .item_name{
 	font-size: 1.5rem;
 }
@@ -534,16 +530,5 @@ img{
 		left: 80%;
 	  }
 
-
-
-
-	/*#box_blob{
-		display: none;
-	}
-
-	#box_img_field{
-		display: block;
-		padding-bottom: 48px;
-	}*/
 
 }
