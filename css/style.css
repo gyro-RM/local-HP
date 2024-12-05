@@ -66,16 +66,16 @@ img{
 }
 
 .title{
-	width: 100%;
+	width: 80%;
 	color: #ffffff;
-	inline-size: 80%;
+	inline-size: 72%;
 	overflow-wrap: break-word;
 	position: relative;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	padding: 48px 24px;
 	font-size: 1.5rem;
+	padding: 48px 24px;
 }
 
 
